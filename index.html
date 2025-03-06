@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aishwarya Innovatech</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <button class="menu-toggle">☰</button>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#internship">Internship</a></li>
+        <li><a href="#jobs">Careers</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <h1>Welcome to Aishwarya Innovatech</h1>
+      <p>Innovative Solutions for a Digital Future</p>
+      <a href="#services" class="btn">Explore Services</a>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About Us</h2>
+      <img src="teamwork_image.jpg" alt="Team Work" class="about-img">
+      <p>At Aishwarya Innovatech, we specialize in cutting-edge software development, AI solutions, and IT consultancy.</p>
+    </section>
+
+    <section id="services" class="services">
+      <h2>Our Services</h2>
+      <div class="service-container">
+        <div class="service-card">
+          <img src="webdevelopment_image.jpg" alt="Web Development">
+          <h3>Web Development</h3>
+          <p>Responsive and scalable web solutions tailored for businesses.</p>
+        </div>
+        <div class="service-card">
+          <img src="mobleapp_image.jpg" alt="Mobile App Development">
+          <h3>Mobile App Development</h3>
+          <p>Feature-rich mobile apps for Android and iOS platforms.</p>
+        </div>
+        <div class="service-card">
+          <img src="aiandml_image.jpg" alt="AI and ML Solutions">
+          <h3>AI & Machine Learning</h3>
+          <p>AI-driven solutions to enhance automation and decision-making.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="internship" class="apply">
+      <h2>Apply for Internship</h2>
+      <form action="#" method="post" enctype="multipart/form-data">
+        <label for="intern-name">Name:</label>
+        <input type="text" id="intern-name" name="name" required>
+        
+        <label for="intern-email">Email:</label>
+        <input type="email" id="intern-email" name="email" required>
+        
+        <label for="intern-resume">Upload Resume:</label>
+        <input type="file" id="intern-resume" name="resume" accept=".pdf,.doc,.docx" required>
+        
+        <label for="intern-message">Why do you want this internship?</label>
+        <textarea id="intern-message" name="message" rows="3" required></textarea>
+        
+        <button type="submit" class="btn">Apply Now</button>
+      </form>
+    </section>
+
+    <section id="jobs" class="apply">
+      <h2>Apply for a Job</h2>
+      <form action="#" method="post" enctype="multipart/form-data">
+        <label for="job-name">Name:</label>
+        <input type="text" id="job-name" name="name" required>
+        
+        <label for="job-email">Email:</label>
+        <input type="email" id="job-email" name="email" required>
+        
+        <label for="job-role">Job Position:</label>
+        <select id="job-role" name="job-role">
+          <option value="developer">Software Developer</option>
+          <option value="designer">UI/UX Designer</option>
+          <option value="analyst">Data Analyst</option>
+          <option value="other">Other</option>
+        </select>
+        
+        <label for="job-resume">Upload Resume:</label>
+        <input type="file" id="job-resume" name="resume" accept=".pdf,.doc,.docx" required>
+        
+        <label for="job-message">Why should we hire you?</label>
+        <textarea id="job-message" name="message" rows="3" required></textarea>
+        
+        <button type="submit" class="btn">Apply Now</button>
+      </form>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Aishwarya Innovatech. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
